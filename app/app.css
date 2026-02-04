@@ -7,8 +7,13 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  /* Change bg-white to your brand color #ebf0f5 */
+  background-color: #ebf0f5;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 
+  /* If you want to keep dark mode support for other parts of the site */
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
